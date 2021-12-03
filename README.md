@@ -8,7 +8,7 @@ Counting the number of words from a text file using pyspark
 * ```git clone https://github.com/Laradib/word_count_metrics.git```
 * go where the python code is located ```cd word_count_metrics```
 * go to the branch ```git checkout develop```
-* ```python projet1/word_count.py```
+* the python code word_count ```python projet1/word_count.py```
 ## To display results type
 ```cat output/part-00000```
 ## To automatically run the code from command line (terminal here) type
