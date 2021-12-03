@@ -1,4 +1,4 @@
-# PySpark_WordCount
+# _WordCount_
 Counting the number of words from a text file using pyspark
 
 ## To test this example try this steps (example on linux/ubuntu):
