@@ -10,7 +10,7 @@ if os.path.exists('output/'):
 sc = pyspark.SparkContext("local","PySpark Word Count Exmaple")
 sc.setLogLevel("ERROR")
 # Read data from text file (here 'sample.txt') and split each line into words
-words = sc.textFile("sample.txt").flatMap(lambda line: line.split(" "))
+words = sc.textFile("projet1/data/sample.txt").flatMap(lambda line: line.split(" "))
 
 # Count the occurrence of each word
 wordCounts = words.map(lambda word: (word, 1)).reduceByKey(lambda a,b:a +b)
